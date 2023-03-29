@@ -1,5 +1,5 @@
 [Unit]
-Description=SlowDNS By SL, nameserver= isi dengan ns cloudflare
+Description=SlowDNS By BangsNgek, nameserver=sg1.bangsngeks.my.id
 Documentation=https://nekopoi.care
 After=network.target nss-lookup.target
 
