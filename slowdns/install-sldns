@@ -50,8 +50,8 @@ cd
 #install client-sldns.service
 cat > /etc/systemd/system/client-sldns.service << END
 [Unit]
-Description=Client SlowDNS By SL
-Documentation=https://nekopoi.care
+Description=Client SlowDNS By BangsNgek
+Documentation=https://bangsngek.com
 After=network.target nss-lookup.target
 
 [Service]
@@ -71,7 +71,7 @@ cd
 cat > /etc/systemd/system/server-sldns.service << END
 [Unit]
 Description=Server SlowDNS By BangsNgek
-Documentation=https://nekopoi.care
+Documentation=https://bangsngek.com
 After=network.target nss-lookup.target
 
 [Service]
