@@ -9,9 +9,9 @@ rm nsdomain
 
 sub=$(</dev/urandom tr -dc a-z0-9 | head -c5)
 subsl=$(</dev/urandom tr -dc a-x0-9 | head -c5)
-DOMAIN=bangsngeks.my.id
-SUB_DOMAIN=server.bangsngeks.my.id
-NS_DOMAIN=ns-server.bangsngeks.my.id
+DOMAIN=bangsngek.com
+SUB_DOMAIN=server.bangsngeks.com
+NS_DOMAIN=ns-server.bangsngek.com
 CF_ID=bangsngek@gmail.com
 CF_KEY=cc3553fe3564605d47101bdee7f6e2a8eebeb
 echo "IP=""$SUB_DOMAIN" >> /var/lib/crot/subdomain.conf
