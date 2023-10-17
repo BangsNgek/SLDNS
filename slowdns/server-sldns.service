@@ -1,5 +1,5 @@
 [Unit]
-Description=SlowDNS By BangsNgek, nameserver=server.bangsngek.com
+Description=SlowDNS By BangsNgek, nameserver=premium.bangsngek.com
 Documentation=https://bangsngek.com
 After=network.target nss-lookup.target
 
